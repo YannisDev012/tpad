@@ -1,0 +1,396 @@
+
+
+body
+{
+    background-color: rgb(252, 252, 235);
+    margin: 80px;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+/* 4 blocs par profil  */
+
+.caseb1{
+    display:block;
+    width: 400px;
+    line-height:80px;
+    text-align:center;
+    background-color: #c0c2c4;
+    color:rgb(8, 8, 8);
+    border-radius: 30px;
+    background-image:url(https://www.adrar-formation.com/wp-content/uploads/2022/09/Alternant.svg);
+    background-repeat: no-repeat;
+}
+.caseb2{
+    display:block;
+    width: 400px;
+    line-height:80px;
+    text-align:center;
+    background-color: #c0c2c4;
+    color:rgb(8, 8, 8);
+    border-radius: 30px;
+    background-image:url(https://www.adrar-formation.com/wp-content/uploads/2022/09/Demandeurs_demploi.svg);
+    background-repeat: no-repeat;
+}
+.caseb3{
+    display:block;
+    width: 400px;
+    line-height:80px;
+    text-align:center;
+    background-color: #c0c2c4;
+    color:rgb(8, 8, 8);
+    border-radius: 30px;
+    background-image:url(https://www.adrar-formation.com/wp-content/uploads/2022/09/Entreprise.svg);
+    background-repeat: no-repeat;
+}
+.caseb4{
+    display:block;
+    width: 400px;
+    line-height:80px;
+    text-align:center;
+    background-color: #c0c2c4;
+    color:rgb(8, 8, 8);
+    border-radius: 30px;
+    background-image:url(https://www.adrar-formation.com/wp-content/uploads/2022/09/Salarie%CC%81s.svg);
+    background-repeat: no-repeat;
+}
+
+.boutonhoriz{
+    text-align: center;
+}
+
+
+
+/* 8 blocs par secteur  */
+
+
+.casea1{
+    display:block;
+    width: 400px;
+    line-height:80px;
+    text-align:center;
+    background-color: #fcbc81;
+    color:rgb(8, 8, 8);
+    border-radius: 30px;
+    background-image:url(https://www.adrar-formation.com/wp-content/uploads/2022/09/bat-genie-therma-clim.svg);
+    background-repeat: no-repeat;
+}
+.casea1:hover {
+    border: 0.7mm ridge rgb(207, 123, 13);
+}
+
+.casea2{
+    display:block;
+    width: 400px;
+    line-height:80px;
+    text-align:center;
+    background-color: #9bdaf5;
+    color:rgb(8, 8, 8);
+    border-radius: 30px;
+    background-image:url(https://www.adrar-formation.com/wp-content/uploads/2022/09/Nume%CC%81rique.svg);
+    background-repeat: no-repeat;
+}
+.casea2:hover {
+    border: 0.7mm ridge rgb(12, 77, 175);
+}
+
+.casea3{
+    display:block;
+    width: 400px;
+    line-height:80px;
+    text-align:center;
+    background-color: #cbe5cc;
+    color:rgb(8, 8, 8);
+    border-radius: 30px;
+    background-image:url(https://www.adrar-formation.com/wp-content/uploads/2022/09/Sante%CC%81Social.svg);
+    background-repeat: no-repeat;
+}
+.casea3:hover {
+    border: 0.7mm ridge #57a85a;
+}
+.casea4{
+    display:block;
+    width: 400px;
+    line-height:80px;
+    text-align:center;
+    background-color: #fcbc81;
+    color:rgb(8, 8, 8);
+    border-radius: 30px;
+    background-image:url(https://www.adrar-formation.com/wp-content/uploads/2022/09/E%CC%81lectricite%CC%81Re%CC%81seaux_Te%CC%81le%CC%81coms.svg);
+    background-repeat: no-repeat;
+}
+.casea4:hover {
+    border: 0.7mm ridge rgb(207, 123, 13);
+}
+.casea5{
+    display:block;
+    width: 400px;
+    line-height:80px;
+    text-align:center;
+    background-color: #fccbc8;
+    color:rgb(8, 8, 8);
+    border-radius: 30px;
+    background-image:url(https://www.adrar-formation.com/wp-content/uploads/2022/09/Carrie%CC%80resEmploi.svg);
+    background-repeat: no-repeat;
+}
+.casea5:hover {
+    border: 0.7mm ridge #f44336;
+}
+
+.casea6{
+    display:block;
+    width: 400px;
+    line-height:80px;
+    text-align:center;
+    background-color:#fcbc81;
+    color:rgb(8, 8, 8);
+    border-radius: 30px;
+    background-image:url(https://www.adrar-formation.com/wp-content/uploads/2022/09/Syste%CC%80mes_Embarque%CC%81s.svg);
+    background-repeat: no-repeat;
+}
+.casea6:hover {
+    border: 0.7mm ridge rgb(207, 123, 13);
+}
+
+.casea7{
+    display:block;
+    width: 400px;
+    line-height:80px;
+    text-align:center;
+    background-color: #fcbc81;
+    color:rgb(8, 8, 8);
+    border-radius: 30px;
+    background-image:url(https://www.adrar-formation.com/wp-content/uploads/2022/09/Qualite%CC%81Se%CC%81curite%CC%81Environnement.svg);
+    background-repeat: no-repeat;
+}
+.casea7:hover {
+    border: 0.7mm ridge rgb(207, 123, 13);
+}
+.casea8{
+    display:block;
+    width: 400px;
+    line-height:80px;
+    text-align:center;
+    background-color: #9bdaf5;
+    color:rgb(8, 8, 8);
+    border-radius: 30px;
+    background-image:url(https://www.adrar-formation.com/wp-content/uploads/2022/09/Tertiaire.svg);
+    background-repeat: no-repeat;
+}
+.casea8:hover {
+    border: 0.7mm ridge rgb(12, 77, 175);
+}
+
+.monBouton{
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    
+    width: 300px;
+    padding: 7px 10px;
+    
+    color: rgb(247, 244, 244);
+    background: #212022;
+    border-radius: 10px;
+}
+
+.bulles{
+    text-align: left;
+    background-color: #ebf4ff;
+    border-radius: 30px;
+    background-size: 200PX;
+    }
+
+
+
+    .wp-block-columns {
+        display: flex;
+        justify-content: space-evenly;
+        font-weight: bold;
+      }
+      
+      .wp-block-column {
+        flex: 1;
+      }
+
+
+
+
+      .wp-block-columns4 {
+        display: flex;
+        font-weight: bold;
+        background-color: #9bdaf5;
+        text-align: center;
+      }
+      
+      .wp-block-column4 {
+        flex: 1;
+      }
+
+
+
+
+
+
+
+      .wp-block-columns2 {
+        display: flow-root;
+      }
+      
+      .wp-block-column2 {
+        flex: 1;
+      }
+
+
+
+      .wp-block-columns3 {
+        display: flow-root;
+      }
+      
+      .wp-block-column3 {
+        flex: 1;
+      }
+
+
+
+
+
+
+
+
+
+      .icone1{
+        text-align: left;
+}
+      .icone2{
+        text-align: left;
+}
+
+     .icone3{
+        text-align: left;
+}
+
+.couleur1{
+    color: #2196f3;
+}
+.couleur2{
+    color: #ff9800;
+}
+.couleur3{
+    color: #f44336;
+}
+
+.centrer{
+    text-align: center;
+}
+
+
+header
+{
+  
+    
+}
+
+
+.blocorbleu{
+    background-color: #a7ddf5;
+    height: 150px;
+     width: 800px;
+     justify-content: space-evenly;
+     border-radius: 10px;
+}
+
+.blocor{
+    background-color: #f7c77f;
+    height: 150px;
+    width: 800px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+.ba1{
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    
+    width: 300px;
+    padding: 7px 10px;
+    
+    color: rgb(247, 244, 244);
+    background: #428bf8;
+    border-radius: 10px;
+}
+
+.ba2{
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    
+    width: 300px;
+    padding: 7px 10px;
+    
+    color: rgb(247, 244, 244);
+    background: #e0ab17;
+    border-radius: 10px;
+}
+
+.ba3{
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    
+    width: 300px;
+    padding: 7px 10px;
+    
+    color: rgb(247, 244, 244);
+    background: #428bf8;
+    border-radius: 10px;
+}
+
+.ba4{
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    
+    width: 300px;
+    padding: 7px 10px;
+    
+    color: rgb(247, 244, 244);
+    background: #e0ab17;
+    border-radius: 10px;
+}
+
+.ba5{
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    
+    width: 300px;
+    padding: 7px 10px;
+    
+    color: rgb(247, 244, 244);
+    background: #3b9229;
+    border-radius: 10px;
+}
